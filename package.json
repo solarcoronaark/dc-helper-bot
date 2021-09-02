@@ -1,0 +1,24 @@
+{
+  "name": "sca-dc-helper-bot",
+  "version": "1.0.0",
+  "description": "Solar Corona Ark's Discord Helper Bot",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "tsc && node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solarcoronaark/dc-helper-bot.git"
+  },
+  "author": "Solar Corono Ark",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/solarcoronaark/dc-helper-bot/issues"
+  },
+  "homepage": "https://github.com/solarcoronaark/dc-helper-bot#readme",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/node": "^14.17.14",
+    "typescript": "^4.4.2"
+  }
+}
